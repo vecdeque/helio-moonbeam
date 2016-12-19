@@ -1,0 +1,25 @@
+{
+  "name": "moonbeam",
+  "version": "0.0.1",
+  "description": "Client app for Helio",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack && electron .",
+    "build-macos": "electron-packager . moonbeam --platform=darwin --arch=x64 --version=1.4.12"
+  },
+  "dependencies": {
+    "menubar": "^5.1.0",
+    "phoenix": "^1.2.1",
+    "websocket": "^1.0.23"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.4.0",
+    "electron-prebuilt": "^1.4.12",
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "webpack": "^1.14.0"
+  }
+}
